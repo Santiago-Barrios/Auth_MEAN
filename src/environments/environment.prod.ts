@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  BaseUrl: 'http://localhost:4000/api',
+  BaseUrl: 'https://cero-to-exp-angular-auth-mean.herokuapp.com/api',
 };

@@ -24,7 +24,6 @@ export class LoginComponent {
   save() {
     const { email, password } = this.myForm.value;
     this.authService.login(email, password).subscribe((ok) => {
-      console.log(ok);
       if (ok === true) {
         this.router.navigateByUrl('dashboard');
       } else {
